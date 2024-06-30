@@ -1,15 +1,11 @@
 /*  your css code here. If applicable */
-
-
 #grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 124px 124px 124px 124px 124px;
     grid-gap: 50px 20px;
-	
 	background-color: green;
 	font-size: 50px;
-
 	color: white;
 }
 .item1{
