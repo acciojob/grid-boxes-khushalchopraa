@@ -1,27 +1,27 @@
 /*  your css code here. If applicable */
-#grid{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 124px 124px 124px 124px 124px;
-    grid-gap: 50px 20px;
-	background-color: green;
-	font-size: 50px;
-	color: white;
+#grid {
+    display: grid;
+    grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+    grid-template-rows: 124px 124px 124px 124px 124px;
+	grid-gap: 10px 10px;
 }
-.item1{
-	grid-column: span 4;
+#grid div {
+    background-color: green;
+    border: 2px solid white;
 }
-.item2{
-	grid-row: span 4;
+/* Grid item placements */
+div:nth-child(1){
+	grid-column: span 4 / auto;
 }
-
-.item4{
-	grid-column: span 2;
+div:nth-child(2){
+	grid-row: span 4 / auto;
 }
-
-.item5{
-	grid-column: span 2;
+div:nth-child(4){
+	grid-column: span 2 / auto;
 }
-.item10{
-	grid-column: span 3;
+div:nth-child(5){
+	grid-column: span 2 / auto;
+}
+div:nth-child(10){
+	grid-column: span 3 / auto;
 }
